@@ -32,6 +32,7 @@ done
 
 protoc \
 --dart_out="./lib/gen" \
---swift_out=./ios/Classes \
 "$PROTO_OUT_FILE"
+
+#--swift_out=./ios/Classes \
 
